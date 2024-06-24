@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -112,7 +112,7 @@ a {
     font-size: 36px;
     font-weight: 900;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .info-content {
@@ -149,7 +149,7 @@ a {
 }
 
 .quote-sentence {
-    /* font-weight: lighter !important; */
+    font-weight: 300;
     width: 800px;
     font-size: 36px;
     font-style: italic;
@@ -157,10 +157,42 @@ a {
 }
 
 .quote-author {
-    /* font-weight: bold !important; */
+    font-weight: 700;
     width: 800px;
     text-align: end;
     color: black;
+}
+
+.call-to-action {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.content {
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px 90px;
+    color: white;
+    border-radius: 10px;
+}
+
+.content #bold {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.content #less-bold {
+    font-weight: 200;
+}
+
+.action-button {
+    margin-left: 100px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .footer {
